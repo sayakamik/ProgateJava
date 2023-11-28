@@ -47,6 +47,18 @@ public class Main {
         double number4 = 3.4;
         System.out.println(number3 + number4);
         
+        // int型同士の計算
+        System.out.println(5/2);
+        // double型同士の計算
+        System.out.println(5.0/2.0);
+        // double型int型の計算
+        System.out.println(5.0/2);
         
+        // int型同士の計算で、少数まで出す場合も作る。
+        // 強制的な型変換をキャストと呼ぶ・
+        int number5 = 13;
+        int number6 = 4;
+        System.out.println(number5/number6);
+        System.out.println((double)number5/number6);
     }
 }
